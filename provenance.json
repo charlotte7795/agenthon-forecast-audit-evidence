@@ -1,0 +1,181 @@
+{
+  "scope": "Aggregation-only evidence package prepared for user-authorized public release.",
+  "copies": {
+    "losses/development/cell-results.csv": {
+      "source": "work/paper-depth-20260929/development/cell-results.csv",
+      "original_sha256": "1cc6fe7e4e923e709dd2714461a2b0c164c071caa37ecf7929c73cb3c04078bc",
+      "packaged_sha256": "1cc6fe7e4e923e709dd2714461a2b0c164c071caa37ecf7929c73cb3c04078bc",
+      "transformation": "none; byte-for-byte copy"
+    },
+    "losses/development/group-results.json": {
+      "source": "work/paper-depth-20260929/development/group-results.json",
+      "original_sha256": "3e22b3059edda6d09e94de6d89c482afab2ba96b2111fffb4779656f94b862d8",
+      "packaged_sha256": "3e22b3059edda6d09e94de6d89c482afab2ba96b2111fffb4779656f94b862d8",
+      "transformation": "none; byte-for-byte copy"
+    },
+    "losses/development/folds.json": {
+      "source": "work/paper-depth-20260929/development/folds.json",
+      "original_sha256": "7890f2a32079a56fbc72b6516ff842e1a94d38d2e1810a43a0b4af02057148cd",
+      "packaged_sha256": "7890f2a32079a56fbc72b6516ff842e1a94d38d2e1810a43a0b4af02057148cd",
+      "transformation": "none; byte-for-byte copy"
+    },
+    "losses/development/run.json": {
+      "source": "work/paper-depth-20260929/development/run.json",
+      "original_sha256": "941b3f03d6424efb753b8864058c62a5e4502f4f46cdfb4ef48aa000f07a20c6",
+      "packaged_sha256": "941b3f03d6424efb753b8864058c62a5e4502f4f46cdfb4ef48aa000f07a20c6",
+      "transformation": "none; byte-for-byte copy"
+    },
+    "losses/development/failures.json": {
+      "source": "work/paper-depth-20260929/development/failures.json",
+      "original_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "packaged_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "transformation": "none; byte-for-byte copy"
+    },
+    "historical-records/development-summary.json": {
+      "source": "work/paper-depth-20260929/development/summary.json",
+      "original_sha256": "0dcc69c3c1eaf40bb522515c9efead2f2222fba37933e03e3b3470bb8a63a999",
+      "packaged_sha256": "0dcc69c3c1eaf40bb522515c9efead2f2222fba37933e03e3b3470bb8a63a999",
+      "transformation": "none; byte-for-byte copy"
+    },
+    "losses/later-124/cell-results.csv": {
+      "source": "work/paper-depth-20260929/later-124/cell-results.csv",
+      "original_sha256": "1cbfb3459610a8658eff9554cb9e5a96e85faf47347a4176c8266b157cc8c1b4",
+      "packaged_sha256": "1cbfb3459610a8658eff9554cb9e5a96e85faf47347a4176c8266b157cc8c1b4",
+      "transformation": "none; byte-for-byte copy"
+    },
+    "losses/later-124/group-results.json": {
+      "source": "work/paper-depth-20260929/later-124/group-results.json",
+      "original_sha256": "769f682b51922d19cadcbd70b03d0e62d96f6882ed734ddd7a2f39c7fcc81f51",
+      "packaged_sha256": "769f682b51922d19cadcbd70b03d0e62d96f6882ed734ddd7a2f39c7fcc81f51",
+      "transformation": "none; byte-for-byte copy"
+    },
+    "losses/later-124/folds.json": {
+      "source": "work/paper-depth-20260929/later-124/folds.json",
+      "original_sha256": "314cc3e1c5b644cc2faf0b5b2e40b02fc4a16b31ec3cbe95f043ee2e18e9ea0e",
+      "packaged_sha256": "314cc3e1c5b644cc2faf0b5b2e40b02fc4a16b31ec3cbe95f043ee2e18e9ea0e",
+      "transformation": "none; byte-for-byte copy"
+    },
+    "losses/later-124/run.json": {
+      "source": "work/paper-depth-20260929/later-124/run.json",
+      "original_sha256": "2b9f6ce85e146248731fe5b36fa56683fbf4c413d35dede3c7f94134e869ed6e",
+      "packaged_sha256": "2b9f6ce85e146248731fe5b36fa56683fbf4c413d35dede3c7f94134e869ed6e",
+      "transformation": "none; byte-for-byte copy"
+    },
+    "losses/later-124/failures.json": {
+      "source": "work/paper-depth-20260929/later-124/failures.json",
+      "original_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "packaged_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "transformation": "none; byte-for-byte copy"
+    },
+    "historical-records/later-124-summary.json": {
+      "source": "work/paper-depth-20260929/later-124/summary.json",
+      "original_sha256": "ecb06b7b1b9e08c28c8a8c3cf6bfc5c36a77c9ba068addcbd312de3dc948ae01",
+      "packaged_sha256": "ecb06b7b1b9e08c28c8a8c3cf6bfc5c36a77c9ba068addcbd312de3dc948ae01",
+      "transformation": "none; byte-for-byte copy"
+    },
+    "protocol/PLAN.md": {
+      "source": "work/paper-depth-20260929/PLAN.md",
+      "original_sha256": "fbc46469558a1339f72f7ed6f3746faa3dd7184ad807985beed54f57a28e6c14",
+      "packaged_sha256": "fbc46469558a1339f72f7ed6f3746faa3dd7184ad807985beed54f57a28e6c14",
+      "transformation": "none; byte-for-byte copy"
+    },
+    "protocol/AMENDMENT.md": {
+      "source": "work/paper-depth-20260929/AMENDMENT.md",
+      "original_sha256": "21a12caa7c12f9b5554a55b2a4f9be3464799c0284a5ca49f0285f0930687257",
+      "packaged_sha256": "21a12caa7c12f9b5554a55b2a4f9be3464799c0284a5ca49f0285f0930687257",
+      "transformation": "none; byte-for-byte copy"
+    },
+    "protocol/freeze-v1.json": {
+      "source": "work/paper-depth-20260929/freeze.json",
+      "original_sha256": "c9fbf4daf54f1176c0afee50d163f5ab285763dcfc4cfe8313341859c705dbfb",
+      "packaged_sha256": "c9fbf4daf54f1176c0afee50d163f5ab285763dcfc4cfe8313341859c705dbfb",
+      "transformation": "none; byte-for-byte copy"
+    },
+    "protocol/freeze-v2.json": {
+      "source": "work/paper-depth-20260929/freeze-later.json",
+      "original_sha256": "45b99f62aca7eae09309d61983e5ee0bc2f1648bf598f9fd4303a5b6a9e52297",
+      "packaged_sha256": "45b99f62aca7eae09309d61983e5ee0bc2f1648bf598f9fd4303a5b6a9e52297",
+      "transformation": "none; byte-for-byte copy"
+    },
+    "protocol/failed-reproduction.json": {
+      "source": "work/paper-depth-20260929/development/reproduction.json",
+      "original_sha256": "c176b17a619420255bf9f26fe11d3a293658536098c1aaa55f505eb6e4555661",
+      "packaged_sha256": "c176b17a619420255bf9f26fe11d3a293658536098c1aaa55f505eb6e4555661",
+      "transformation": "none; byte-for-byte copy"
+    },
+    "protocol/gaussian-diagnostic.json": {
+      "source": "work/paper-depth-20260929/gaussian-diagnostic.json",
+      "original_sha256": "143b6e26faba2ae81b0e200349e8affb8f6d48b621a45e4206bc9c9bc60501b2",
+      "packaged_sha256": "143b6e26faba2ae81b0e200349e8affb8f6d48b621a45e4206bc9c9bc60501b2",
+      "transformation": "none; byte-for-byte copy"
+    },
+    "protocol/synthetic-tests.json": {
+      "source": "work/paper-depth-20260929/code/semantics-only-synthetic-tests.json",
+      "original_sha256": "d9c715c82286db84ab4f3007845dd4fbd040465dc67bd1675db8b9e4bb4eec50",
+      "packaged_sha256": "d9c715c82286db84ab4f3007845dd4fbd040465dc67bd1675db8b9e4bb4eec50",
+      "transformation": "none; byte-for-byte copy"
+    },
+    "historical-records/development-family.json": {
+      "source": "work/paper-depth-20260929/fresh-stratification/results.json",
+      "original_sha256": "a062415d3d6b54bdbfb5315dbe038f20806e126b87484669be391e06ce41e90b",
+      "packaged_sha256": "a062415d3d6b54bdbfb5315dbe038f20806e126b87484669be391e06ce41e90b",
+      "transformation": "none; byte-for-byte copy"
+    },
+    "historical-records/factor-yearly-PLAN.md": {
+      "source": "work/paper-final-20260929/factor-yearly/PLAN.md",
+      "original_sha256": "8ef6854c7be881bef60d0d85f7e0db1f9114cf6e6d6f9cdc7901b98bdfc2aa61",
+      "packaged_sha256": "8ef6854c7be881bef60d0d85f7e0db1f9114cf6e6d6f9cdc7901b98bdfc2aa61",
+      "transformation": "none; byte-for-byte copy"
+    },
+    "historical-records/factor-yearly-results.json": {
+      "source": "work/paper-final-20260929/factor-yearly/results.json",
+      "original_sha256": "040c828a570d4a94d33fd5c2dd3183148094b5bbf48f838f62fc1ef92d3dc8cf",
+      "packaged_sha256": "040c828a570d4a94d33fd5c2dd3183148094b5bbf48f838f62fc1ef92d3dc8cf",
+      "transformation": "none; byte-for-byte copy"
+    },
+    "historical-records/factor-yearly-factor-yearly.csv": {
+      "source": "work/paper-final-20260929/factor-yearly/factor-yearly.csv",
+      "original_sha256": "e21abce9f0e866a4ef7160b09baa59b53e989c4577f1476f605a23e5d9dced6f",
+      "packaged_sha256": "e21abce9f0e866a4ef7160b09baa59b53e989c4577f1476f605a23e5d9dced6f",
+      "transformation": "none; byte-for-byte copy"
+    },
+    "reproduce.py": {
+      "source": "work/paper-final-20260929/reproduce.py",
+      "original_sha256": "e6ccfd94c087dde93b5062058466b36c003cd8d1da1cc9059ef1f4b9a75aebf0",
+      "packaged_sha256": "e6ccfd94c087dde93b5062058466b36c003cd8d1da1cc9059ef1f4b9a75aebf0",
+      "transformation": "none; byte-for-byte copy"
+    },
+    "README.md": {
+      "source": "work/paper-final-20260929/evidence-README.md",
+      "original_sha256": "9f327dbfbd6339b1e1f8dc575a8bd6be3844380cf4c556d6f4a749b1a2bd6971",
+      "packaged_sha256": "05fccecff4039a7d696a02c6dfebcef30878c6969081633da51256d8b5617219",
+      "transformation": "Publication wording and code-license section added; aggregation scope unchanged."
+    },
+    "protocol/synthetic-check-contracts.md": {
+      "source": "work/paper-final-20260929/synthetic-check-contracts.md",
+      "original_sha256": "9adba506421f2ec8d1c413685b1e5ba44b5d983645c7a5f4d8ed76964fa1bf2d",
+      "packaged_sha256": "9adba506421f2ec8d1c413685b1e5ba44b5d983645c7a5f4d8ed76964fa1bf2d",
+      "transformation": "none; byte-for-byte copy"
+    }
+  },
+  "redaction": "No redaction required in the explicit whitelist; originals copied verbatim.",
+  "derived_files": {
+    "series-list.json": "Distinct source/asset/year metadata from both cell loss CSVs.",
+    "expected-tables.json": "Independent terminal summaries and stored-loss stratifications; checked only after reconstruction.",
+    "protocol/synthetic-check-contracts.md": {
+      "kind": "Derived documentation added in this package revision; no tests rerun.",
+      "source": "work/paper-depth-20260929/code/test_semantics_only.py",
+      "source_sha256": "49ff703416f2a5fae82a9d34529957c39c3a9c1d0ab65eeff86c653d6ff6086f"
+    },
+    "LICENSE": "MIT license for original reproduce.py aggregation code; upstream data and code not redistributed."
+  },
+  "additional_expected_source": {
+    "source": "work/paper-depth-20260929/later-stratification/results.json",
+    "sha256": "5d64dd56f019291a45f03d47a163fe48feb8e0dc8ea8dfe02c452c649cdab2ca",
+    "use": "Whole-period factor corrected/starter joint ratio and defined/zero grid counts."
+  },
+  "historical_public_repository_commit": "83c6dc036bec03862b78e093bf8804d98964dad5",
+  "forecast_source_files_included": false,
+  "raw_data_included": false,
+  "aggregation_tolerance_absolute": 2e-14
+}

@@ -1,0 +1,367 @@
+{
+  "table2": [
+    {
+      "period": "development",
+      "comparator": "official-floor",
+      "marginal": 0.9578794199024673,
+      "tail": 0.8829660798862856,
+      "joint": 0.6679760782650516
+    },
+    {
+      "period": "development",
+      "comparator": "semantics-only",
+      "marginal": 0.9715422647080787,
+      "tail": 0.9158910828790441,
+      "joint": 0.709889423735201
+    },
+    {
+      "period": "development",
+      "comparator": "semantic-gaussian",
+      "marginal": 0.9851921309450048,
+      "tail": 0.9680979974663373,
+      "joint": 0.9557689450280988
+    },
+    {
+      "period": "later-124",
+      "comparator": "official-floor",
+      "marginal": 1.0116174774232445,
+      "tail": 1.2386096579041665,
+      "joint": 1.2433073830451271
+    },
+    {
+      "period": "later-124",
+      "comparator": "semantics-only",
+      "marginal": 0.9948924565012389,
+      "tail": 1.1436195447326187,
+      "joint": 1.2017512841168083
+    },
+    {
+      "period": "later-124",
+      "comparator": "semantic-gaussian",
+      "marginal": 0.9959477889229365,
+      "tail": 0.9660973740551319,
+      "joint": 0.9953332175946561
+    }
+  ],
+  "table3": [
+    {
+      "family": "factor_log_return",
+      "series": 5,
+      "series_years": 75,
+      "resampling/starter": {
+        "marginal": 0.8611835738199762,
+        "tail": 0.7107388350679054
+      },
+      "resampling/gaussian": {
+        "marginal": 0.9437175951558405,
+        "tail": 0.9234994948278311
+      },
+      "corrected/starter": {
+        "marginal": 0.9291052018635021,
+        "tail": 0.8362279119576794
+      }
+    },
+    {
+      "family": "fx_level",
+      "series": 13,
+      "series_years": 181,
+      "resampling/starter": {
+        "marginal": 0.9892947220662751,
+        "tail": 0.9371924477871029
+      },
+      "resampling/gaussian": {
+        "marginal": 1.0005824394183753,
+        "tail": 0.9944604126733443
+      },
+      "corrected/starter": {
+        "marginal": 1.0,
+        "tail": 1.0
+      }
+    },
+    {
+      "family": "rate_level",
+      "series": 5,
+      "series_years": 71,
+      "resampling/starter": {
+        "marginal": 0.9728954803590577,
+        "tail": 0.9142047681625408
+      },
+      "resampling/gaussian": {
+        "marginal": 0.9866518647034047,
+        "tail": 0.9441542205666249
+      },
+      "corrected/starter": {
+        "marginal": 1.0,
+        "tail": 1.0
+      }
+    }
+  ],
+  "table4": [
+    {
+      "year": 2019,
+      "metric": "marginal",
+      "paired_units": 4,
+      "defined_units": 4,
+      "undefined_zero_baseline_units": 0,
+      "equal_unit_ratio": 0.9612801727432277,
+      "improved_units": 3,
+      "worsened_units": 1,
+      "tied_units": 0,
+      "status": "available"
+    },
+    {
+      "year": 2019,
+      "metric": "tail",
+      "paired_units": 4,
+      "defined_units": 4,
+      "undefined_zero_baseline_units": 0,
+      "equal_unit_ratio": 0.7188926027951823,
+      "improved_units": 4,
+      "worsened_units": 0,
+      "tied_units": 0,
+      "status": "available"
+    },
+    {
+      "year": 2019,
+      "metric": "joint",
+      "paired_units": 7,
+      "defined_units": 3,
+      "undefined_zero_baseline_units": 4,
+      "equal_unit_ratio": 0.9532776159988504,
+      "improved_units": 2,
+      "worsened_units": 1,
+      "tied_units": 0,
+      "status": "available"
+    },
+    {
+      "year": 2020,
+      "metric": "marginal",
+      "paired_units": 4,
+      "defined_units": 4,
+      "undefined_zero_baseline_units": 0,
+      "equal_unit_ratio": 1.109994718532736,
+      "improved_units": 0,
+      "worsened_units": 4,
+      "tied_units": 0,
+      "status": "available"
+    },
+    {
+      "year": 2020,
+      "metric": "tail",
+      "paired_units": 4,
+      "defined_units": 4,
+      "undefined_zero_baseline_units": 0,
+      "equal_unit_ratio": 1.924288780130671,
+      "improved_units": 0,
+      "worsened_units": 4,
+      "tied_units": 0,
+      "status": "available"
+    },
+    {
+      "year": 2020,
+      "metric": "joint",
+      "paired_units": 7,
+      "defined_units": 3,
+      "undefined_zero_baseline_units": 4,
+      "equal_unit_ratio": 1.3625323868128352,
+      "improved_units": 0,
+      "worsened_units": 3,
+      "tied_units": 0,
+      "status": "available"
+    },
+    {
+      "year": 2021,
+      "metric": "marginal",
+      "paired_units": 3,
+      "defined_units": 3,
+      "undefined_zero_baseline_units": 0,
+      "equal_unit_ratio": 0.9935049246023918,
+      "improved_units": 1,
+      "worsened_units": 2,
+      "tied_units": 0,
+      "status": "available"
+    },
+    {
+      "year": 2021,
+      "metric": "tail",
+      "paired_units": 3,
+      "defined_units": 3,
+      "undefined_zero_baseline_units": 0,
+      "equal_unit_ratio": 1.0411490099885474,
+      "improved_units": 2,
+      "worsened_units": 1,
+      "tied_units": 0,
+      "status": "available"
+    },
+    {
+      "year": 2021,
+      "metric": "joint",
+      "paired_units": 3,
+      "defined_units": 2,
+      "undefined_zero_baseline_units": 1,
+      "equal_unit_ratio": 1.0868526609509797,
+      "improved_units": 0,
+      "worsened_units": 2,
+      "tied_units": 0,
+      "status": "available"
+    },
+    {
+      "year": 2022,
+      "metric": "marginal",
+      "paired_units": 3,
+      "defined_units": 3,
+      "undefined_zero_baseline_units": 0,
+      "equal_unit_ratio": 0.9939747281616805,
+      "improved_units": 2,
+      "worsened_units": 1,
+      "tied_units": 0,
+      "status": "available"
+    },
+    {
+      "year": 2022,
+      "metric": "tail",
+      "paired_units": 3,
+      "defined_units": 3,
+      "undefined_zero_baseline_units": 0,
+      "equal_unit_ratio": 1.204171760221943,
+      "improved_units": 2,
+      "worsened_units": 1,
+      "tied_units": 0,
+      "status": "available"
+    },
+    {
+      "year": 2022,
+      "metric": "joint",
+      "paired_units": 2,
+      "defined_units": 1,
+      "undefined_zero_baseline_units": 1,
+      "equal_unit_ratio": 1.08673565528659,
+      "improved_units": 0,
+      "worsened_units": 1,
+      "tied_units": 0,
+      "status": "available"
+    },
+    {
+      "year": 2023,
+      "metric": "marginal",
+      "paired_units": 1,
+      "defined_units": 1,
+      "undefined_zero_baseline_units": 0,
+      "equal_unit_ratio": 1.162869628873483,
+      "improved_units": 0,
+      "worsened_units": 1,
+      "tied_units": 0,
+      "status": "available"
+    },
+    {
+      "year": 2023,
+      "metric": "tail",
+      "paired_units": 1,
+      "defined_units": 1,
+      "undefined_zero_baseline_units": 0,
+      "equal_unit_ratio": 0.7623916601391026,
+      "improved_units": 1,
+      "worsened_units": 0,
+      "tied_units": 0,
+      "status": "available"
+    },
+    {
+      "year": 2023,
+      "metric": "joint",
+      "paired_units": 1,
+      "defined_units": 0,
+      "undefined_zero_baseline_units": 1,
+      "equal_unit_ratio": null,
+      "improved_units": 0,
+      "worsened_units": 0,
+      "tied_units": 0,
+      "status": "no_positive_baseline"
+    },
+    {
+      "year": 2024,
+      "metric": "marginal",
+      "paired_units": 0,
+      "defined_units": 0,
+      "undefined_zero_baseline_units": 0,
+      "equal_unit_ratio": null,
+      "improved_units": 0,
+      "worsened_units": 0,
+      "tied_units": 0,
+      "status": "no_factor_observations"
+    },
+    {
+      "year": 2024,
+      "metric": "tail",
+      "paired_units": 0,
+      "defined_units": 0,
+      "undefined_zero_baseline_units": 0,
+      "equal_unit_ratio": null,
+      "improved_units": 0,
+      "worsened_units": 0,
+      "tied_units": 0,
+      "status": "no_factor_observations"
+    },
+    {
+      "year": 2024,
+      "metric": "joint",
+      "paired_units": 0,
+      "defined_units": 0,
+      "undefined_zero_baseline_units": 0,
+      "equal_unit_ratio": null,
+      "improved_units": 0,
+      "worsened_units": 0,
+      "tied_units": 0,
+      "status": "no_factor_observations"
+    }
+  ],
+  "table4_year_direction_counts": {
+    "marginal": {
+      "calendar_years": 6,
+      "supported_years": 5,
+      "no_factor_observation_years": 1,
+      "only_zero_baseline_years": 0,
+      "improved_years": 3,
+      "improved_share": 0.6,
+      "worsened_years": 2,
+      "worsened_share": 0.4,
+      "tied_years": 0,
+      "tied_share": 0.0
+    },
+    "tail": {
+      "calendar_years": 6,
+      "supported_years": 5,
+      "no_factor_observation_years": 1,
+      "only_zero_baseline_years": 0,
+      "improved_years": 2,
+      "improved_share": 0.4,
+      "worsened_years": 3,
+      "worsened_share": 0.6,
+      "tied_years": 0,
+      "tied_share": 0.0
+    },
+    "joint": {
+      "calendar_years": 6,
+      "supported_years": 4,
+      "no_factor_observation_years": 1,
+      "only_zero_baseline_years": 1,
+      "improved_years": 1,
+      "improved_share": 0.25,
+      "worsened_years": 3,
+      "worsened_share": 0.75,
+      "tied_years": 0,
+      "tied_share": 0.0
+    }
+  },
+  "factor_joint_whole_period": {
+    "development": {
+      "joint_ratio": 0.5808828285785423,
+      "positive_baseline_grids": 5,
+      "undefined_zero_baseline_grids": 6
+    },
+    "later-124": {
+      "joint_ratio": 1.2259404272096595,
+      "positive_baseline_grids": 3,
+      "undefined_zero_baseline_grids": 4
+    }
+  }
+}

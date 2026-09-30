@@ -1,0 +1,381 @@
+{
+  "comparison": "target-corrected starter / historical public starter",
+  "stored_keys": [
+    "semantics-only",
+    "official-floor"
+  ],
+  "scope": "Descriptive post-opening diagnostic of saved losses; no new forecast or target/panel read.",
+  "coverage_all_four_original_methods": {
+    "official-floor": {
+      "planned": 124,
+      "success": 124,
+      "failure": 0
+    },
+    "semantics-only": {
+      "planned": 124,
+      "success": 124,
+      "failure": 0
+    },
+    "semantic-gaussian": {
+      "planned": 124,
+      "success": 124,
+      "failure": 0
+    },
+    "block-bootstrap": {
+      "planned": 124,
+      "success": 124,
+      "failure": 0
+    }
+  },
+  "source_sha256": {
+    "cell-results.csv": "1cbfb3459610a8658eff9554cb9e5a96e85faf47347a4176c8266b157cc8c1b4",
+    "group-results.json": "769f682b51922d19cadcbd70b03d0e62d96f6882ed734ddd7a2f39c7fcc81f51",
+    "summary.json": "ecb06b7b1b9e08c28c8a8c3cf6bfc5c36a77c9ba068addcbd312de3dc948ae01"
+  },
+  "plan_sha256": "8ef6854c7be881bef60d0d85f7e0db1f9114cf6e6d6f9cdc7901b98bdfc2aa61",
+  "script_sha256": "43917ff7e5432baccefee8e9278dd4007adbd6ead3db59312bee65e3f8729689",
+  "years": {
+    "2019": {
+      "year": 2019,
+      "candidate_unique_cells": 11,
+      "candidate_pure_factor_folds": 7,
+      "marginal": {
+        "paired_units": 4,
+        "defined_units": 4,
+        "undefined_zero_baseline_units": 0,
+        "equal_unit_ratio": 0.9612801727432277,
+        "improved_units": 3,
+        "improved_share": 0.75,
+        "worsened_units": 1,
+        "worsened_share": 0.25,
+        "tied_units": 0,
+        "tied_share": 0.0,
+        "status": "available"
+      },
+      "tail": {
+        "paired_units": 4,
+        "defined_units": 4,
+        "undefined_zero_baseline_units": 0,
+        "equal_unit_ratio": 0.7188926027951823,
+        "improved_units": 4,
+        "improved_share": 1.0,
+        "worsened_units": 0,
+        "worsened_share": 0.0,
+        "tied_units": 0,
+        "tied_share": 0.0,
+        "status": "available"
+      },
+      "joint": {
+        "paired_units": 7,
+        "defined_units": 3,
+        "undefined_zero_baseline_units": 4,
+        "equal_unit_ratio": 0.9532776159988504,
+        "improved_units": 2,
+        "improved_share": 0.6666666666666666,
+        "worsened_units": 1,
+        "worsened_share": 0.3333333333333333,
+        "tied_units": 0,
+        "tied_share": 0.0,
+        "status": "available"
+      }
+    },
+    "2020": {
+      "year": 2020,
+      "candidate_unique_cells": 11,
+      "candidate_pure_factor_folds": 7,
+      "marginal": {
+        "paired_units": 4,
+        "defined_units": 4,
+        "undefined_zero_baseline_units": 0,
+        "equal_unit_ratio": 1.109994718532736,
+        "improved_units": 0,
+        "improved_share": 0.0,
+        "worsened_units": 4,
+        "worsened_share": 1.0,
+        "tied_units": 0,
+        "tied_share": 0.0,
+        "status": "available"
+      },
+      "tail": {
+        "paired_units": 4,
+        "defined_units": 4,
+        "undefined_zero_baseline_units": 0,
+        "equal_unit_ratio": 1.924288780130671,
+        "improved_units": 0,
+        "improved_share": 0.0,
+        "worsened_units": 4,
+        "worsened_share": 1.0,
+        "tied_units": 0,
+        "tied_share": 0.0,
+        "status": "available"
+      },
+      "joint": {
+        "paired_units": 7,
+        "defined_units": 3,
+        "undefined_zero_baseline_units": 4,
+        "equal_unit_ratio": 1.3625323868128352,
+        "improved_units": 0,
+        "improved_share": 0.0,
+        "worsened_units": 3,
+        "worsened_share": 1.0,
+        "tied_units": 0,
+        "tied_share": 0.0,
+        "status": "available"
+      }
+    },
+    "2021": {
+      "year": 2021,
+      "candidate_unique_cells": 8,
+      "candidate_pure_factor_folds": 3,
+      "marginal": {
+        "paired_units": 3,
+        "defined_units": 3,
+        "undefined_zero_baseline_units": 0,
+        "equal_unit_ratio": 0.9935049246023918,
+        "improved_units": 1,
+        "improved_share": 0.3333333333333333,
+        "worsened_units": 2,
+        "worsened_share": 0.6666666666666666,
+        "tied_units": 0,
+        "tied_share": 0.0,
+        "status": "available"
+      },
+      "tail": {
+        "paired_units": 3,
+        "defined_units": 3,
+        "undefined_zero_baseline_units": 0,
+        "equal_unit_ratio": 1.0411490099885474,
+        "improved_units": 2,
+        "improved_share": 0.6666666666666666,
+        "worsened_units": 1,
+        "worsened_share": 0.3333333333333333,
+        "tied_units": 0,
+        "tied_share": 0.0,
+        "status": "available"
+      },
+      "joint": {
+        "paired_units": 3,
+        "defined_units": 2,
+        "undefined_zero_baseline_units": 1,
+        "equal_unit_ratio": 1.0868526609509797,
+        "improved_units": 0,
+        "improved_share": 0.0,
+        "worsened_units": 2,
+        "worsened_share": 1.0,
+        "tied_units": 0,
+        "tied_share": 0.0,
+        "status": "available"
+      }
+    },
+    "2022": {
+      "year": 2022,
+      "candidate_unique_cells": 5,
+      "candidate_pure_factor_folds": 2,
+      "marginal": {
+        "paired_units": 3,
+        "defined_units": 3,
+        "undefined_zero_baseline_units": 0,
+        "equal_unit_ratio": 0.9939747281616805,
+        "improved_units": 2,
+        "improved_share": 0.6666666666666666,
+        "worsened_units": 1,
+        "worsened_share": 0.3333333333333333,
+        "tied_units": 0,
+        "tied_share": 0.0,
+        "status": "available"
+      },
+      "tail": {
+        "paired_units": 3,
+        "defined_units": 3,
+        "undefined_zero_baseline_units": 0,
+        "equal_unit_ratio": 1.204171760221943,
+        "improved_units": 2,
+        "improved_share": 0.6666666666666666,
+        "worsened_units": 1,
+        "worsened_share": 0.3333333333333333,
+        "tied_units": 0,
+        "tied_share": 0.0,
+        "status": "available"
+      },
+      "joint": {
+        "paired_units": 2,
+        "defined_units": 1,
+        "undefined_zero_baseline_units": 1,
+        "equal_unit_ratio": 1.08673565528659,
+        "improved_units": 0,
+        "improved_share": 0.0,
+        "worsened_units": 1,
+        "worsened_share": 1.0,
+        "tied_units": 0,
+        "tied_share": 0.0,
+        "status": "available"
+      }
+    },
+    "2023": {
+      "year": 2023,
+      "candidate_unique_cells": 1,
+      "candidate_pure_factor_folds": 1,
+      "marginal": {
+        "paired_units": 1,
+        "defined_units": 1,
+        "undefined_zero_baseline_units": 0,
+        "equal_unit_ratio": 1.162869628873483,
+        "improved_units": 0,
+        "improved_share": 0.0,
+        "worsened_units": 1,
+        "worsened_share": 1.0,
+        "tied_units": 0,
+        "tied_share": 0.0,
+        "status": "available"
+      },
+      "tail": {
+        "paired_units": 1,
+        "defined_units": 1,
+        "undefined_zero_baseline_units": 0,
+        "equal_unit_ratio": 0.7623916601391026,
+        "improved_units": 1,
+        "improved_share": 1.0,
+        "worsened_units": 0,
+        "worsened_share": 0.0,
+        "tied_units": 0,
+        "tied_share": 0.0,
+        "status": "available"
+      },
+      "joint": {
+        "paired_units": 1,
+        "defined_units": 0,
+        "undefined_zero_baseline_units": 1,
+        "equal_unit_ratio": null,
+        "improved_units": 0,
+        "improved_share": null,
+        "worsened_units": 0,
+        "worsened_share": null,
+        "tied_units": 0,
+        "tied_share": null,
+        "status": "no_positive_baseline"
+      }
+    },
+    "2024": {
+      "year": 2024,
+      "candidate_unique_cells": 0,
+      "candidate_pure_factor_folds": 0,
+      "marginal": {
+        "paired_units": 0,
+        "defined_units": 0,
+        "undefined_zero_baseline_units": 0,
+        "equal_unit_ratio": null,
+        "improved_units": 0,
+        "improved_share": null,
+        "worsened_units": 0,
+        "worsened_share": null,
+        "tied_units": 0,
+        "tied_share": null,
+        "status": "no_factor_observations"
+      },
+      "tail": {
+        "paired_units": 0,
+        "defined_units": 0,
+        "undefined_zero_baseline_units": 0,
+        "equal_unit_ratio": null,
+        "improved_units": 0,
+        "improved_share": null,
+        "worsened_units": 0,
+        "worsened_share": null,
+        "tied_units": 0,
+        "tied_share": null,
+        "status": "no_factor_observations"
+      },
+      "joint": {
+        "paired_units": 0,
+        "defined_units": 0,
+        "undefined_zero_baseline_units": 0,
+        "equal_unit_ratio": null,
+        "improved_units": 0,
+        "improved_share": null,
+        "worsened_units": 0,
+        "worsened_share": null,
+        "tied_units": 0,
+        "tied_share": null,
+        "status": "no_factor_observations"
+      }
+    }
+  },
+  "direction_totals": {
+    "marginal": {
+      "year_direction_counts": {
+        "calendar_years": 6,
+        "supported_years": 5,
+        "no_factor_observation_years": 1,
+        "only_zero_baseline_years": 0,
+        "improved_years": 3,
+        "improved_share": 0.6,
+        "worsened_years": 2,
+        "worsened_share": 0.4,
+        "tied_years": 0,
+        "tied_share": 0.0
+      },
+      "unit_year_direction_counts": {
+        "paired_units": 15,
+        "defined_units": 15,
+        "undefined_zero_baseline_units": 0,
+        "improved_units": 6,
+        "improved_share": 0.4,
+        "worsened_units": 9,
+        "worsened_share": 0.6,
+        "tied_units": 0,
+        "tied_share": 0.0
+      }
+    },
+    "tail": {
+      "year_direction_counts": {
+        "calendar_years": 6,
+        "supported_years": 5,
+        "no_factor_observation_years": 1,
+        "only_zero_baseline_years": 0,
+        "improved_years": 2,
+        "improved_share": 0.4,
+        "worsened_years": 3,
+        "worsened_share": 0.6,
+        "tied_years": 0,
+        "tied_share": 0.0
+      },
+      "unit_year_direction_counts": {
+        "paired_units": 15,
+        "defined_units": 15,
+        "undefined_zero_baseline_units": 0,
+        "improved_units": 9,
+        "improved_share": 0.6,
+        "worsened_units": 6,
+        "worsened_share": 0.4,
+        "tied_units": 0,
+        "tied_share": 0.0
+      }
+    },
+    "joint": {
+      "year_direction_counts": {
+        "calendar_years": 6,
+        "supported_years": 4,
+        "no_factor_observation_years": 1,
+        "only_zero_baseline_years": 1,
+        "improved_years": 1,
+        "improved_share": 0.25,
+        "worsened_years": 3,
+        "worsened_share": 0.75,
+        "tied_years": 0,
+        "tied_share": 0.0
+      },
+      "unit_year_direction_counts": {
+        "paired_units": 20,
+        "defined_units": 9,
+        "undefined_zero_baseline_units": 11,
+        "improved_units": 2,
+        "improved_share": 0.2222222222222222,
+        "worsened_units": 7,
+        "worsened_share": 0.7777777777777778,
+        "tied_units": 0,
+        "tied_share": 0.0
+      }
+    }
+  },
+  "caution": "No average of yearly ratios is reported as a whole-period score. Ratios are descriptive, with varying correlated support; no causal mechanism, new test, or tuning is inferred."
+}

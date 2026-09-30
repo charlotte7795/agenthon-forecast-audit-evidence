@@ -1,0 +1,116 @@
+{
+  "recorded_utc": "2026-09-30T01:56:10.059499+00:00",
+  "scope": "One bounded development case; no source/config changes, no reserved-window read or evaluation; covariance-sign enumeration was identity diagnosis, not performance selection.",
+  "stored_score_comparison": {
+    "block_bootstrap": {
+      "folds": 886,
+      "marginal_tail_joint_all_bitwise_equal": true
+    },
+    "official_floor": {
+      "folds": 886,
+      "all_close_rtol_atol": 1e-12,
+      "largest_absolute_loss_difference": 5.329070518200751e-15
+    },
+    "semantic_gaussian": {
+      "folds": 886,
+      "changed_beyond_rtol_atol_1e12": 88,
+      "changed_asset_dimensions": {
+        "3": 11,
+        "4": 64,
+        "10": 13
+      },
+      "max_absolute_difference": {
+        "marginal": 0.10867825231840778,
+        "tail": 0.03662543300459875,
+        "joint": 0.46192236665159836
+      }
+    }
+  },
+  "case": {
+    "grid": "fbdddf36c744e695",
+    "origin": "2017-01-03",
+    "unit": "t2-F3-election-2024-joint",
+    "assets": [
+      "EUR",
+      "JPY",
+      "UST_10Y",
+      "UST_2Y"
+    ],
+    "horizons": [
+      21,
+      63
+    ],
+    "panels_filter_read_only_through": "2017-03-31",
+    "split": "development"
+  },
+  "copy_comparison": {
+    "original": "{n: f.copy(deep=True) for n, f in history.items()}",
+    "new": "copy.deepcopy(history)",
+    "covariance_equal": true,
+    "eigen_factor_equal": true,
+    "samples_bitwise_equal": true,
+    "innovation_array_order": "F-contiguous both"
+  },
+  "diagnostic_old_losses": [
+    0.8092080495188814,
+    0.06676000809597621,
+    1.8696950520753854
+  ],
+  "diagnostic_new_losses": [
+    0.9178863018372891,
+    0.0667322131228778,
+    2.2274268819113265
+  ],
+  "sign_enumeration": {
+    "factor": "V @ diag(sqrt(max(eigenvalues,0)))",
+    "patterns_checked": 16,
+    "unique_old_identity_match": [
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "matched_losses": [
+      0.8092080495188816,
+      0.06676000809597621,
+      1.8696950520753859
+    ],
+    "max_absolute_difference_from_old": 4.440892098500626e-16,
+    "interpretation": "This case is fully explained by covariance-equivalent eigenvector signs changing finite Monte Carlo samples at the same seed. The trigger for sign convention change is unresolved; no claim that all remaining changed folds share this cause."
+  },
+  "attempt_accounting": {
+    "development_cases": 1,
+    "copy_comparison_successful_calls": 2,
+    "instrumentation_failed_after_one_prediction": 1,
+    "instrumentation_error": "DatetimeArray has no flags during block-format logging; fixed logging, not model",
+    "equivalent_sign_factor_diagnostics": 16,
+    "full_new_evaluations": 0,
+    "holdout_evaluations": 0
+  },
+  "environment_check": {
+    "numpy": "2.5.3",
+    "blas_lapack": "system Accelerate",
+    "thread_environment_variables": [
+      "OMP_NUM_THREADS",
+      "OPENBLAS_NUM_THREADS",
+      "VECLIB_MAXIMUM_THREADS",
+      "MKL_NUM_THREADS",
+      "NPY_DISABLE_CPU_FEATURES"
+    ],
+    "thread_variables_all_unset": true,
+    "numpy_multiarray_and_linalg_binaries_equal_between_existing_venvs": true
+  },
+  "bytecode_check": {
+    "file": "outputs/apex-validation/__pycache__/evaluate.cpython-313.pyc",
+    "mtime_local": "2026-09-14T13:20:42.616172",
+    "semantic_code_objects_equal_to_current_source": [
+      "semantic_gaussian",
+      "series_map",
+      "cut_inputs",
+      "historical_truth",
+      "load_panels"
+    ],
+    "caveat": "This old pyc is not attested as the original experiment-loaded file."
+  },
+  "decision": "Keep original reproduction threshold and failure evidence; diagnose rather than silently relax tolerance or open reserve."
+}

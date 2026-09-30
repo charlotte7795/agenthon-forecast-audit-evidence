@@ -1,0 +1,56 @@
+{
+  "passed": false,
+  "original_models_checked": [
+    "official-floor",
+    "semantic-gaussian",
+    "block-bootstrap"
+  ],
+  "fresh_planned_per_model": 886,
+  "fresh_coverage": {
+    "official-floor": {
+      "planned": 886,
+      "success": 886,
+      "failure": 0
+    },
+    "semantics-only": {
+      "planned": 886,
+      "success": 886,
+      "failure": 0
+    },
+    "semantic-gaussian": {
+      "planned": 886,
+      "success": 886,
+      "failure": 0
+    },
+    "block-bootstrap": {
+      "planned": 886,
+      "success": 886,
+      "failure": 0
+    }
+  },
+  "checks": {
+    "cell_marginal": {
+      "max_abs_difference": 0.5825272996393625,
+      "allclose": false
+    },
+    "cell_tail": {
+      "max_abs_difference": 0.209275823108109,
+      "allclose": false
+    },
+    "group_marginal": {
+      "max_abs_difference": 0.10867825231840778,
+      "allclose": false
+    },
+    "group_tail": {
+      "max_abs_difference": 0.03662543300459875,
+      "allclose": false
+    },
+    "group_joint": {
+      "max_abs_difference": 0.46192236665159836,
+      "allclose": false
+    }
+  },
+  "level_ablation_exactly_equal": true,
+  "original_run_identity_gap_remains": true,
+  "new_run_has_before_import_and_completion_hashes": true
+}

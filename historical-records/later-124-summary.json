@@ -1,0 +1,202 @@
+{
+  "coverage": {
+    "official-floor": {
+      "planned": 124,
+      "success": 124,
+      "failure": 0
+    },
+    "semantics-only": {
+      "planned": 124,
+      "success": 124,
+      "failure": 0
+    },
+    "semantic-gaussian": {
+      "planned": 124,
+      "success": 124,
+      "failure": 0
+    },
+    "block-bootstrap": {
+      "planned": 124,
+      "success": 124,
+      "failure": 0
+    }
+  },
+  "series": 18,
+  "series_years": 83,
+  "grids": 33,
+  "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "official_score": null,
+  "ratios": {
+    "block-bootstrap vs official-floor": {
+      "marginal": {
+        "eligible_series": 18,
+        "annual_blocks": 6,
+        "mean_local_ratio": 1.0116174774232445,
+        "median_local_ratio": 1.0252317871594725,
+        "series_wins": 6,
+        "series_losses": 12,
+        "series_ties": 0,
+        "paired_ratio_difference_from_baseline": 0.011617477423244482,
+        "annual_block_bootstrap_ratio_95pct": [
+          0.9575040520428776,
+          1.0283767143678206
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_rejected_empty_series": 1348,
+        "interval_caveat": "Conditional exploratory bootstrap: resamples leaving any sparse series/grid with no paired year are rejected; short histories limit interval coverage."
+      },
+      "tail": {
+        "eligible_series": 18,
+        "annual_blocks": 6,
+        "mean_local_ratio": 1.2386096579041665,
+        "median_local_ratio": 1.1949745935553824,
+        "series_wins": 6,
+        "series_losses": 12,
+        "series_ties": 0,
+        "paired_ratio_difference_from_baseline": 0.23860965790416655,
+        "annual_block_bootstrap_ratio_95pct": [
+          0.8747147717386862,
+          1.4872807205799785
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_rejected_empty_series": 1348,
+        "interval_caveat": "Conditional exploratory bootstrap: resamples leaving any sparse series/grid with no paired year are rejected; short histories limit interval coverage."
+      },
+      "joint": {
+        "eligible_series": 17,
+        "annual_blocks": 6,
+        "mean_local_ratio": 1.2433073830451271,
+        "median_local_ratio": 1.0346952054028145,
+        "series_wins": 6,
+        "series_losses": 11,
+        "series_ties": 0,
+        "paired_ratio_difference_from_baseline": 0.2433073830451271,
+        "annual_block_bootstrap_ratio_95pct": [
+          1.08041108818762,
+          1.4804508240695327
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_rejected_empty_series": 1348,
+        "interval_caveat": "Conditional exploratory bootstrap: resamples leaving any sparse series/grid with no paired year are rejected; short histories limit interval coverage.",
+        "zero_baseline_grids": 16
+      }
+    },
+    "block-bootstrap vs semantics-only": {
+      "marginal": {
+        "eligible_series": 18,
+        "annual_blocks": 6,
+        "mean_local_ratio": 0.9948924565012389,
+        "median_local_ratio": 1.016586402377766,
+        "series_wins": 7,
+        "series_losses": 11,
+        "series_ties": 0,
+        "paired_ratio_difference_from_baseline": -0.00510754349876108,
+        "annual_block_bootstrap_ratio_95pct": [
+          0.9620474912039592,
+          1.0063310840595658
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_rejected_empty_series": 1348,
+        "interval_caveat": "Conditional exploratory bootstrap: resamples leaving any sparse series/grid with no paired year are rejected; short histories limit interval coverage."
+      },
+      "tail": {
+        "eligible_series": 18,
+        "annual_blocks": 6,
+        "mean_local_ratio": 1.1436195447326187,
+        "median_local_ratio": 1.170458308663946,
+        "series_wins": 6,
+        "series_losses": 12,
+        "series_ties": 0,
+        "paired_ratio_difference_from_baseline": 0.14361954473261873,
+        "annual_block_bootstrap_ratio_95pct": [
+          0.9190514205593951,
+          1.2965677717920157
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_rejected_empty_series": 1348,
+        "interval_caveat": "Conditional exploratory bootstrap: resamples leaving any sparse series/grid with no paired year are rejected; short histories limit interval coverage."
+      },
+      "joint": {
+        "eligible_series": 17,
+        "annual_blocks": 6,
+        "mean_local_ratio": 1.2017512841168083,
+        "median_local_ratio": 1.0303189657212815,
+        "series_wins": 7,
+        "series_losses": 10,
+        "series_ties": 0,
+        "paired_ratio_difference_from_baseline": 0.20175128411680832,
+        "annual_block_bootstrap_ratio_95pct": [
+          1.0395475282985895,
+          1.506028752265491
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_rejected_empty_series": 1348,
+        "interval_caveat": "Conditional exploratory bootstrap: resamples leaving any sparse series/grid with no paired year are rejected; short histories limit interval coverage.",
+        "zero_baseline_grids": 16
+      }
+    },
+    "block-bootstrap vs semantic-gaussian": {
+      "marginal": {
+        "eligible_series": 18,
+        "annual_blocks": 6,
+        "mean_local_ratio": 0.9959477889229365,
+        "median_local_ratio": 0.9960835499917413,
+        "series_wins": 12,
+        "series_losses": 6,
+        "series_ties": 0,
+        "paired_ratio_difference_from_baseline": -0.00405221107706355,
+        "annual_block_bootstrap_ratio_95pct": [
+          0.9825357333329414,
+          1.0154761170604185
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_rejected_empty_series": 1348,
+        "interval_caveat": "Conditional exploratory bootstrap: resamples leaving any sparse series/grid with no paired year are rejected; short histories limit interval coverage."
+      },
+      "tail": {
+        "eligible_series": 18,
+        "annual_blocks": 6,
+        "mean_local_ratio": 0.9660973740551319,
+        "median_local_ratio": 0.9790904743805053,
+        "series_wins": 12,
+        "series_losses": 6,
+        "series_ties": 0,
+        "paired_ratio_difference_from_baseline": -0.03390262594486815,
+        "annual_block_bootstrap_ratio_95pct": [
+          0.9420697342741148,
+          1.0176619594903342
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_rejected_empty_series": 1348,
+        "interval_caveat": "Conditional exploratory bootstrap: resamples leaving any sparse series/grid with no paired year are rejected; short histories limit interval coverage."
+      },
+      "joint": {
+        "eligible_series": 17,
+        "annual_blocks": 6,
+        "mean_local_ratio": 0.9953332175946561,
+        "median_local_ratio": 0.9854203617916595,
+        "series_wins": 11,
+        "series_losses": 6,
+        "series_ties": 0,
+        "paired_ratio_difference_from_baseline": -0.0046667824053439055,
+        "annual_block_bootstrap_ratio_95pct": [
+          0.9570924497433944,
+          1.0380826492383328
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_rejected_empty_series": 1348,
+        "interval_caveat": "Conditional exploratory bootstrap: resamples leaving any sparse series/grid with no paired year are rejected; short histories limit interval coverage.",
+        "zero_baseline_grids": 16
+      }
+    }
+  },
+  "intervals_are_exploratory": true,
+  "complete": true
+}

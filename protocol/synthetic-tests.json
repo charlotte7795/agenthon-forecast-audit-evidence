@@ -1,0 +1,26 @@
+{
+  "scope": "synthetic-only; no actual public panels, development outcomes or reserved targets read",
+  "command": "work/release-20260926/toolkit/venv/bin/python work/paper-depth-20260929/code/test_semantics_only.py",
+  "tests": 9,
+  "passed": 9,
+  "failed": 0,
+  "first_run": true,
+  "elapsed_test_seconds": 0.085,
+  "source_sha256": {
+    "historical_predictor.py": "65bc434a89691c958b590a04ed451e69b46321aac20fd5aff2b9efb8ef5f26f3",
+    "semantics_only.py": "6f64230595f981ff5ef7f1855052bd2e583460c4c789d64737b505e28c4f7202",
+    "test_semantics_only.py": "49ff703416f2a5fae82a9d34529957c39c3a9c1d0ab65eeff86c653d6ff6086f"
+  },
+  "constraints": {
+    "level_exact_starter_delegation": true,
+    "log_return_source": "factors_daily",
+    "innovation": "log1p(simple_return)",
+    "anchor": 0,
+    "history_dates": "unchanged starter difference-valid mask; intersection across assets",
+    "window": "unchanged full pre-asof history",
+    "covariance_psd": "unchanged starter SD/correlation/eigen clipping/Cholesky",
+    "horizon_dependence": "unchanged separate endpoint Gaussian draws",
+    "drift": 0
+  },
+  "root_freeze_required": true
+}

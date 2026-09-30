@@ -1,0 +1,16 @@
+{
+  "split": "development",
+  "models": [
+    "official-floor",
+    "semantics-only",
+    "semantic-gaussian",
+    "block-bootstrap"
+  ],
+  "planned_per_model": 886,
+  "started_utc": "2026-09-30T01:48:12.256034+00:00",
+  "freeze_sha256": "c9fbf4daf54f1176c0afee50d163f5ab285763dcfc4cfe8313341859c705dbfb",
+  "finished": true,
+  "elapsed_seconds": 60.5495693749981,
+  "finished_utc": "2026-09-30T01:49:12.016452+00:00",
+  "source_unchanged": true
+}

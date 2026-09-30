@@ -1,0 +1,352 @@
+{
+  "scope": "Fresh development stored losses only; no new predictions, panel loads, or 124-fold access.",
+  "coverage": {
+    "official-floor": {
+      "planned": 886,
+      "success": 886,
+      "failure": 0
+    },
+    "semantics-only": {
+      "planned": 886,
+      "success": 886,
+      "failure": 0
+    },
+    "semantic-gaussian": {
+      "planned": 886,
+      "success": 886,
+      "failure": 0
+    },
+    "block-bootstrap": {
+      "planned": 886,
+      "success": 886,
+      "failure": 0
+    }
+  },
+  "original_reproduction_passed": false,
+  "freeze_sha256": "c9fbf4daf54f1176c0afee50d163f5ab285763dcfc4cfe8313341859c705dbfb",
+  "raw_cell_rows": 11064,
+  "deduplicated_cell_rows": 4540,
+  "comparisons": {
+    "block-bootstrap vs official-floor": {
+      "overall": {
+        "series": 23,
+        "series_years": 327,
+        "unique_cells": 1135,
+        "marginal_ratio_units": 23,
+        "marginal_ratio": 0.9578794199024673,
+        "tail_ratio_units": 23,
+        "tail_ratio": 0.8829660798862856,
+        "grids": 63,
+        "folds": 886,
+        "positive_baseline_grids": 30,
+        "undefined_zero_baseline_grids": 33,
+        "joint_ratio": 0.6679760782650516
+      },
+      "target_source_families": {
+        "factor_log_return": {
+          "series": 5,
+          "series_years": 75,
+          "unique_cells": 232,
+          "marginal_ratio_units": 5,
+          "marginal_ratio": 0.8611835738199762,
+          "tail_ratio_units": 5,
+          "tail_ratio": 0.7107388350679054
+        },
+        "fx_level": {
+          "series": 13,
+          "series_years": 181,
+          "unique_cells": 593,
+          "marginal_ratio_units": 13,
+          "marginal_ratio": 0.9892947220662751,
+          "tail_ratio_units": 13,
+          "tail_ratio": 0.9371924477871029
+        },
+        "rate_level": {
+          "series": 5,
+          "series_years": 71,
+          "unique_cells": 310,
+          "marginal_ratio_units": 5,
+          "marginal_ratio": 0.9728954803590577,
+          "tail_ratio_units": 5,
+          "tail_ratio": 0.9142047681625408
+        }
+      },
+      "joint_grid_families": {
+        "factor_log_return": {
+          "grids": 11,
+          "folds": 156,
+          "positive_baseline_grids": 5,
+          "undefined_zero_baseline_grids": 6,
+          "joint_ratio": 0.4120148532044812
+        },
+        "fx_level": {
+          "grids": 28,
+          "folds": 375,
+          "positive_baseline_grids": 11,
+          "undefined_zero_baseline_grids": 17,
+          "joint_ratio": 0.6204953418626549
+        },
+        "fx_level+rate_level": {
+          "grids": 5,
+          "folds": 74,
+          "positive_baseline_grids": 5,
+          "undefined_zero_baseline_grids": 0,
+          "joint_ratio": 0.8140174263029113
+        },
+        "rate_level": {
+          "grids": 19,
+          "folds": 281,
+          "positive_baseline_grids": 9,
+          "undefined_zero_baseline_grids": 10,
+          "joint_ratio": 0.7870746877694869
+        }
+      }
+    },
+    "block-bootstrap vs semantics-only": {
+      "overall": {
+        "series": 23,
+        "series_years": 327,
+        "unique_cells": 1135,
+        "marginal_ratio_units": 23,
+        "marginal_ratio": 0.9715422647080787,
+        "tail_ratio_units": 23,
+        "tail_ratio": 0.9158910828790441,
+        "grids": 63,
+        "folds": 886,
+        "positive_baseline_grids": 30,
+        "undefined_zero_baseline_grids": 33,
+        "joint_ratio": 0.709889423735201
+      },
+      "target_source_families": {
+        "factor_log_return": {
+          "series": 5,
+          "series_years": 75,
+          "unique_cells": 232,
+          "marginal_ratio_units": 5,
+          "marginal_ratio": 0.9240326599257889,
+          "tail_ratio_units": 5,
+          "tail_ratio": 0.8621938488345945
+        },
+        "fx_level": {
+          "series": 13,
+          "series_years": 181,
+          "unique_cells": 593,
+          "marginal_ratio_units": 13,
+          "marginal_ratio": 0.9892947220662751,
+          "tail_ratio_units": 13,
+          "tail_ratio": 0.9371924477871029
+        },
+        "rate_level": {
+          "series": 5,
+          "series_years": 71,
+          "unique_cells": 310,
+          "marginal_ratio_units": 5,
+          "marginal_ratio": 0.9728954803590577,
+          "tail_ratio_units": 5,
+          "tail_ratio": 0.9142047681625408
+        }
+      },
+      "joint_grid_families": {
+        "factor_log_return": {
+          "grids": 11,
+          "folds": 156,
+          "positive_baseline_grids": 5,
+          "undefined_zero_baseline_grids": 6,
+          "joint_ratio": 0.663494926025378
+        },
+        "fx_level": {
+          "grids": 28,
+          "folds": 375,
+          "positive_baseline_grids": 11,
+          "undefined_zero_baseline_grids": 17,
+          "joint_ratio": 0.6204953418626549
+        },
+        "fx_level+rate_level": {
+          "grids": 5,
+          "folds": 74,
+          "positive_baseline_grids": 5,
+          "undefined_zero_baseline_grids": 0,
+          "joint_ratio": 0.8140174263029113
+        },
+        "rate_level": {
+          "grids": 19,
+          "folds": 281,
+          "positive_baseline_grids": 9,
+          "undefined_zero_baseline_grids": 10,
+          "joint_ratio": 0.7870746877694869
+        }
+      }
+    },
+    "block-bootstrap vs semantic-gaussian": {
+      "overall": {
+        "series": 23,
+        "series_years": 327,
+        "unique_cells": 1135,
+        "marginal_ratio_units": 23,
+        "marginal_ratio": 0.9851921309450047,
+        "tail_ratio_units": 23,
+        "tail_ratio": 0.9680979974663372,
+        "grids": 63,
+        "folds": 886,
+        "positive_baseline_grids": 30,
+        "undefined_zero_baseline_grids": 33,
+        "joint_ratio": 0.9557689450280988
+      },
+      "target_source_families": {
+        "factor_log_return": {
+          "series": 5,
+          "series_years": 75,
+          "unique_cells": 232,
+          "marginal_ratio_units": 5,
+          "marginal_ratio": 0.9437175951558405,
+          "tail_ratio_units": 5,
+          "tail_ratio": 0.9234994948278311
+        },
+        "fx_level": {
+          "series": 13,
+          "series_years": 181,
+          "unique_cells": 593,
+          "marginal_ratio_units": 13,
+          "marginal_ratio": 1.0005824394183753,
+          "tail_ratio_units": 13,
+          "tail_ratio": 0.9944604126733443
+        },
+        "rate_level": {
+          "series": 5,
+          "series_years": 71,
+          "unique_cells": 310,
+          "marginal_ratio_units": 5,
+          "marginal_ratio": 0.9866518647034047,
+          "tail_ratio_units": 5,
+          "tail_ratio": 0.9441542205666249
+        }
+      },
+      "joint_grid_families": {
+        "factor_log_return": {
+          "grids": 11,
+          "folds": 156,
+          "positive_baseline_grids": 5,
+          "undefined_zero_baseline_grids": 6,
+          "joint_ratio": 0.7902143231926355
+        },
+        "fx_level": {
+          "grids": 28,
+          "folds": 375,
+          "positive_baseline_grids": 11,
+          "undefined_zero_baseline_grids": 17,
+          "joint_ratio": 1.0029459122551858
+        },
+        "fx_level+rate_level": {
+          "grids": 5,
+          "folds": 74,
+          "positive_baseline_grids": 5,
+          "undefined_zero_baseline_grids": 0,
+          "joint_ratio": 0.961426594886426
+        },
+        "rate_level": {
+          "grids": 19,
+          "folds": 281,
+          "positive_baseline_grids": 9,
+          "undefined_zero_baseline_grids": 10,
+          "joint_ratio": 0.9869398584045127
+        }
+      }
+    },
+    "semantics-only vs official-floor": {
+      "overall": {
+        "series": 23,
+        "series_years": 327,
+        "unique_cells": 1135,
+        "marginal_ratio_units": 23,
+        "marginal_ratio": 0.984588087361631,
+        "tail_ratio_units": 23,
+        "tail_ratio": 0.964397372164713,
+        "grids": 63,
+        "folds": 886,
+        "positive_baseline_grids": 30,
+        "undefined_zero_baseline_grids": 33,
+        "joint_ratio": 0.9301471380964237
+      },
+      "target_source_families": {
+        "factor_log_return": {
+          "series": 5,
+          "series_years": 75,
+          "unique_cells": 232,
+          "marginal_ratio_units": 5,
+          "marginal_ratio": 0.9291052018635021,
+          "tail_ratio_units": 5,
+          "tail_ratio": 0.8362279119576794
+        },
+        "fx_level": {
+          "series": 13,
+          "series_years": 181,
+          "unique_cells": 593,
+          "marginal_ratio_units": 13,
+          "marginal_ratio": 1.0,
+          "tail_ratio_units": 13,
+          "tail_ratio": 1.0
+        },
+        "rate_level": {
+          "series": 5,
+          "series_years": 71,
+          "unique_cells": 310,
+          "marginal_ratio_units": 5,
+          "marginal_ratio": 1.0,
+          "tail_ratio_units": 5,
+          "tail_ratio": 1.0
+        }
+      },
+      "joint_grid_families": {
+        "factor_log_return": {
+          "grids": 11,
+          "folds": 156,
+          "positive_baseline_grids": 5,
+          "undefined_zero_baseline_grids": 6,
+          "joint_ratio": 0.5808828285785423
+        },
+        "fx_level": {
+          "grids": 28,
+          "folds": 375,
+          "positive_baseline_grids": 11,
+          "undefined_zero_baseline_grids": 17,
+          "joint_ratio": 1.0
+        },
+        "fx_level+rate_level": {
+          "grids": 5,
+          "folds": 74,
+          "positive_baseline_grids": 5,
+          "undefined_zero_baseline_grids": 0,
+          "joint_ratio": 1.0
+        },
+        "rate_level": {
+          "grids": 19,
+          "folds": 281,
+          "positive_baseline_grids": 9,
+          "undefined_zero_baseline_grids": 10,
+          "joint_ratio": 1.0
+        }
+      }
+    }
+  },
+  "reconstruction_errors": {
+    "block-bootstrap vs official-floor/marginal": 0.0,
+    "block-bootstrap vs official-floor/tail": 0.0,
+    "block-bootstrap vs official-floor/joint": 0.0,
+    "block-bootstrap vs semantics-only/marginal": 0.0,
+    "block-bootstrap vs semantics-only/tail": 0.0,
+    "block-bootstrap vs semantics-only/joint": 0.0,
+    "block-bootstrap vs semantic-gaussian/marginal": 1.1102230246251565e-16,
+    "block-bootstrap vs semantic-gaussian/tail": 1.1102230246251565e-16,
+    "block-bootstrap vs semantic-gaussian/joint": 0.0
+  },
+  "source_sha256": {
+    "cell-results.csv": "1cc6fe7e4e923e709dd2714461a2b0c164c071caa37ecf7929c73cb3c04078bc",
+    "group-results.json": "3e22b3059edda6d09e94de6d89c482afab2ba96b2111fffb4779656f94b862d8",
+    "run.json": "941b3f03d6424efb753b8864058c62a5e4502f4f46cdfb4ef48aa000f07a20c6",
+    "failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "summary.json": "0dcc69c3c1eaf40bb522515c9efead2f2222fba37933e03e3b3470bb8a63a999",
+    "reproduction.json": "c176b17a619420255bf9f26fe11d3a293658536098c1aaa55f505eb6e4555661"
+  },
+  "reducer_sha256": "8c6badeed9760a29db8bae12298768a656f9ab6998f9d76a59c8a46704c2ab72",
+  "script_sha256": "1403b931c91489966e2563d801908936504eba1dd0089719b2f8e5f3627bc062"
+}
